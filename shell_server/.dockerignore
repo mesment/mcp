@@ -1,0 +1,29 @@
+# Git相关
+.git
+.gitignore
+
+# IDE相关
+.idea
+.vscode
+*.swp
+*.swo
+
+# 构建输出
+/cmd/server/server
+
+# 测试文件
+*_test.go
+*.test
+
+# 临时文件
+*.tmp
+*.log
+
+# 其他不需要的文件
+DOCKERFILE*
+.dockerignore
+
+# 测试JSON文件
+test_*.json
+
+# 确保README.md不被排除

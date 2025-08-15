@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  mcp-terminal-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mesment/mcp-shell-server:latest
+    stdin_open: true # 等同于 docker run -i
+    tty: true # 等同于 docker run -t
+    restart: unless-stopped
+    # 注意：由于此服务通过标准输入/输出通信，
+    # 通常不会以docker-compose up的方式启动，
+    # 而是使用 docker run -i 或通过管道传输数据
