@@ -1,4 +1,4 @@
-module github.com/mesment/mcp/shell_server
+module github.com/mesment/mcp/shellserver
 
 go 1.24.5
 

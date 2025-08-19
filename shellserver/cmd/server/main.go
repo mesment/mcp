@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mesment/mcp/shell_server/internal/resource"
-	"github.com/mesment/mcp/shell_server/internal/terminal"
+	"github.com/mesment/mcp/shellserver/internal/resource"
+	"github.com/mesment/mcp/shellserver/internal/terminal"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
